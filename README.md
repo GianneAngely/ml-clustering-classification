@@ -8,8 +8,8 @@ A two-stage machine-learning pipeline on banking transaction data: **discover cu
 
 ## Overview
 
-- **Clustering** — [`[Clustering]`](./BMLP_Gianne%20Angely) notebook: K-Means groups customers into segments; PCA projects the high-dimensional features to 2D for the visualization above.
-- **Classification** — [`[Klasifikasi]`](./BMLP_Gianne%20Angely) notebook: Decision Tree and Random Forest models are trained (and tuned) to predict a customer's cluster from their features.
+- **Clustering** — [`clustering.ipynb`](./notebooks/clustering.ipynb): K-Means groups customers into segments; PCA projects the high-dimensional features to 2D for the visualization above.
+- **Classification** — [`classification.ipynb`](./notebooks/classification.ipynb): Decision Tree and Random Forest models are trained (and tuned) to predict a customer's cluster from their features.
 
 Exploratory analysis of the feature correlations that drive the segmentation:
 
